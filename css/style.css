@@ -150,7 +150,7 @@ li span{
 
 
 .infoSection{
-    height: 650px;
+    height: 700px;
     margin-top: 30px;
 
 }
@@ -268,6 +268,7 @@ li span{
 
 .infoSection{
     background-image: url(/img/Health/Diamond-Sunset.svg);
+    
 
 }
 /* 
@@ -294,13 +295,17 @@ li span{
     align-items: center;
     padding-bottom: 20px;
     overflow: hidden;
+    padding: 30px 0; 
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .footer-links a{
-    margin: 20px;
+    margin: 15px;
     font-size: 16px;
     font-weight: 600;
     color: black;
+    padding: 20px;
 
 }
 
@@ -311,9 +316,15 @@ li span{
     .nav{
         flex-direction: column;
         justify-content: space-around;
-        padding: 20px;
+        padding: 10px;
         height: auto;
         overflow-y: hidden;
+    }
+
+    .zapamietaj{
+        position: relative;
+        left: 70px;
+        
     }
 
     /* Landing_=iPage */
@@ -338,6 +349,13 @@ li span{
     .landingText{
         position: relative;
         left: 30px;
+        top: 30px;
+    }
+
+    .landingText h3{
+        font-size: 13px !important;
+        text-align: center;
+        width: 90%;
     }
 
 
@@ -348,6 +366,7 @@ li span{
         justify-content: center;
         align-items: center;
         text-align: center;
+       
     }
 
     .infoSection{
@@ -370,6 +389,7 @@ li span{
 
     .aboutText h1{
         left: 40px;
+        top: 30px;
     }
 
     .aboutText img{
@@ -380,6 +400,8 @@ li span{
 
     .aboutList{
         width: 75%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     ol li{
@@ -388,6 +410,18 @@ li span{
 
     .bannerText h1{
         font-size: 20px;
+        
+    }
+
+    .banner .bannerText h1{
+        font-size: 20px;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .bannerText a img{
+        height: 34px;
+        width: auto;
     }
 
 }
@@ -425,7 +459,7 @@ li span{
 
 
     .infoSection{
-        height: 1300px;
+        height: 1400px;
     }
 
     .infoCards{
@@ -453,7 +487,27 @@ li span{
         font-size: 25px;
     }
 
+}
 
-    
 
+@media only screen and (max-width: 400px){
+    .landing{
+        margin-top: 60px;
+    }
+
+    .infoHeader h2{
+        font-size: 22px;
+    }
+
+    .card{
+        margin-bottom: 90px;
+    }
+
+    .infoSection{
+        height: auto;
+    }
+
+    .aboutText img{
+        margin-left: 50px;
+    }
 }
